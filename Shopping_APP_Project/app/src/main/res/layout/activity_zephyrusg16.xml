@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zephyrusg16">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="387dp"
+            android:layout_height="282dp"
+            android:layout_marginTop="124dp"
+            android:background="@drawable/search_viewbackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/w250" />
+
+        <TextView
+            android:layout_width="251dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="28dp"
+            android:text="30 000 000 VNĐ"
+            android:textColor="#B62E00"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="320dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="88dp"
+            android:text="ROG Zephyrus G16 (2024) GU605 GU605MV-QR196WS"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.175"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="272dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginTop="192dp"
+            android:layout_marginEnd="62dp"
+            android:background="@drawable/custom_button_color_orange"
+            android:text="Thêm vào giỏ hàng"
+            android:textSize="20dp"
+
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <Button
+            android:layout_width="272dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="268dp"
+            android:background="@drawable/cusstom_color_yellow"
+            android:text="Mua ngay"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.553"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/backkicon"
+            android:layout_width="52dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.044"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
